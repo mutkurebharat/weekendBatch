@@ -5,15 +5,15 @@
 	</head>
 	<body>
 		<h1>Forms</h1>
-		<form method="get" autocomplete="off">
+		<form method="get" autocomplete="off" novalidate>
 			<fieldset>
 				<legend>Personal Info: </legend>
 				<label for="fName">First Name : </label>
-				<input type="text" id="fName" name="fName" placeholder="e.g. Bharat"  required>
+				<input type="text" id="fName" name="fName" placeholder="e.g. Bharat"  required pattern="[A-Za-z]" title="Name should contain only small and capital alphabets">
 				<br><br><br>
 				
 				<label for="lName">Last Name: </label>
-				<input type="text" id="lName" name="lastName" maxlength="10">
+				<input type="text" autofocus id="lName" name="lastName" maxlength="10">
 				<br><br><br>
 				
 				<label for="password">Password: </label>
@@ -68,11 +68,14 @@
 				</datalist>
 				<br><br><br>
 				<br><br><br>
-				Select your file:<input type="file">
+				<label for="birthDate">Select your Birth Date:</label>
+				<input type="date" id="birthDate" name="birthDate" min="1990-08-31" max="2000-12-31">
+				<br><br><br>
+				Select your file:<input type="file" multiple>
 				<br><br><br>
 				Select your Month:<input type="month">
 				<br><br><br>
-				Select your Number:<input type="number" min="0" max="10">
+				Select your Number:<input type="number" step="3">
 				<br><br><br>
 				<br><br><br>
 				<button>Customizable Button</button>

@@ -89,3 +89,86 @@
 /* ***************************************************************** */
 /* ***************** Banner End ********************************** */
 /* ***************************************************************** */
+
+
+/* ***************************************************************** */
+/* ***************** Services Section Start ********************** */
+/* ***************************************************************** */
+
+	.services{
+		text-align: center;
+	}
+	
+	.services h3{
+		font-size: 30px;
+		padding: 0 202px;
+		padding-top: 79px;
+		padding-bottom: 41px;
+	}
+	
+	.services p{
+		font-size: 14px;
+		padding: 0 107px;
+		padding-bottom: 41px;
+	}
+	
+	.ser-mid-image{
+		padding: 0 126px;
+	}
+	
+	.ser-img-section{
+		padding-bottom: 75px;
+	}
+
+
+/* ***************************************************************** */
+/* ********* Services Section End ********************************** */
+/* ***************************************************************** */
+
+
+/* ***************************************************************** */
+/* ********* Dhavan Section Start ********************************** */
+/* ***************************************************************** */
+
+	.dhavan-section{
+		background-color: #00d089;
+	}
+	
+	.dhavan-img{
+		float: left;
+		padding-right: 31px;
+	}
+	
+	.dhavan-sign{
+		float: left;
+	}
+	
+	.dhavan-sign h4{
+		padding-bottom: 15px;
+		font-size: 26px;
+		color: #e4e4e4;
+	}
+	
+	.dhavan-sign img{
+		opacity: 0.3;
+	}
+	
+	.dhavan-img-sec{
+		padding-left: 397px;
+		padding-top: 101px;
+		padding-bottom: 62px;
+	}
+	
+	.dhavan-para p{
+		font-size: 18px;
+		color: #ddf6ea;
+		padding: 0 35px;
+		line-height: 25px;
+	}
+	
+	.dhavan-para{
+		padding-bottom: 87px;
+	}
+/* ***************************************************************** */
+/* ********* Dhavan Section End ********************************** */
+/* ***************************************************************** */

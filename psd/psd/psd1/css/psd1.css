@@ -28,6 +28,11 @@
 	padding: 0 25px;
 }
 
+.nav a{
+	color: #dce3e4;
+	text-decoration: none;
+}
+
 .nav{
 	float: right;
 	padding: 42px 0 33px 0;

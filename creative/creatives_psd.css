@@ -1,0 +1,52 @@
+*{
+	margin:0;
+	padding:0;
+	border:0;
+	box-sizing:border-box;
+}
+
+.container{
+	width: 1176px;
+	margin: 0 auto;
+}
+
+.banner{
+	position: relative;
+}
+
+.clear{
+	clear: both;
+}
+
+
+.logo{
+	float: left;
+}
+
+.nav{
+	float: left;
+	padding-left: 221px;
+}
+
+.nav li{
+	float: left;
+	padding: 0 23px;
+}
+
+.header{
+	background: red;
+	position: absolute;
+	top: 0;
+}
+
+.social-icons{
+	float: right;
+	padding-left: 31px;
+}
+
+.banner-heading{
+	position: absolute;
+    left: calc(50% - 105px);
+    top: calc(50% - 27px);
+}
+
